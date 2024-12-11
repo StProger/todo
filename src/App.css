@@ -11,6 +11,7 @@
 .App {
   text-align: center;
   font-family: Arial, sans-serif;
+  background-color: aqua;
 }
 
 .task-input {
@@ -53,7 +54,7 @@ ul {
 li {
   margin: 10px 0;
   padding: 10px;
-  border: 1px solid #ddd;
+  border: 1px solid #342e2e;
   border-radius: 4px;
   display: flex;
   justify-content: space-between;
@@ -61,7 +62,7 @@ li {
 }
 
 li.completed {
-  background-color: #ddd;
+  background-color: #585454;
 }
 
 li.completed span {
